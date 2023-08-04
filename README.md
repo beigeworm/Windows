@@ -10,11 +10,11 @@ This uses cover.html to redirect to email.html and finally login.html.
 
 **Windows 11**
 ![11cover](https://github.com/beigeworm/Windows-Locksreen-in-HTML/assets/93350544/b5d3c537-a81f-4851-84eb-7e1019e54b9b)
-![login11](https://github.com/beigeworm/Windows-Locksreen-in-HTML/assets/93350544/68209ffc-4d5c-402c-886f-480615833bbb)
+![log11](https://github.com/beigeworm/Windows-Locksreen-in-HTML/assets/93350544/8aefe15e-33a8-4299-977e-e4093d344031)
 
 **Windows 10**
 ![cover10](https://github.com/beigeworm/Windows-Locksreen-in-HTML/assets/93350544/bbbab2d1-c471-4267-8646-f9aeb8731178)
-![login10](https://github.com/beigeworm/Windows-Locksreen-in-HTML/assets/93350544/a8ef646c-27d8-4025-a3ba-c359e6ff441b)
+![log10](https://github.com/beigeworm/Windows-Locksreen-in-HTML/assets/93350544/c5cb7773-e706-4034-81af-d9acf52e19e8)
 
 **GOOGLE**
 
