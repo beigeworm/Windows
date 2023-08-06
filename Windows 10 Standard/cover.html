@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	  <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>&#65279;</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+<style>
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap);
+body{background:rgba(0,0,0,1);margin:0;padding:0;overflow-x:hidden}.alert{background:rgba(0,0,0,1);position:fixed;top:0;left:0;width:100%;height:auto;z-index:10;padding:10px}.alert ul{padding:0;margin:0;list-style:none;display:flex;justify-content:space-around;align-items:center}.alert ul li b{color:#589;font-weight:600;font-family:Arial,sans-serif}#container{height:100vh;width:100vw;overflow:hidden;position:relative}#wallpaper{background-image:url($wpURL);background-repeat:no-repeat;background-size:90% cover;background-position:center;height:100vh;width:100vw;position:absolute;top:0;left:0}#wallpaper.slideUp{transition:all .6s ease;transform:translateY(-100%)}#wallpaper.slideDown{transition:all .6s linear;transform:translateY(0%)}.icons{display:flex;justify-content:flex-start;align-items:center;padding-left:.5em}.icons i{color:#fff;margin-top:.7em;margin-right:2em}#date_cont{position:absolute;top:67%;left:4%;text-align: left;animation:slideInFast .3s .3s linear forwards;visibility:hidden;transform:translateY(150%);transition:all .6s ease both}@keyframes slideInFast{from{visibility:hidden;opacity:0;transform:translateY(100%)}to{visibility:visible;opacity:1;transform:translateY(0%)}}#time{font-size:8em;font-family:'Open Sans Condensed',sans-serif;color:#fff;margin:0;margin-left:-15px;padding:0}#date{font-size:2.5em;font-family:'Open Sans',sans-serif;color:#fff;margin-top:-.6em}
+</style>
+</head>
+<body>
+	<div id="container">
+		<div id="wallpaper">
+			<div id="date_cont">
+				<div id="time">08:20</div>
+				<div id="date" class="">Tuesday, October 8</div>
+        <div class="icons">
+          <i class="fa fa-wifi"></i>
+          <i class="fa fa-battery-full"></i>
+        </div>
+		</div>
+    </div>
+	</div>
+	<script type="text/javascript">
+(function(){
+  var time = document.querySelector('#time');
+  var dateElem = document.querySelector('#date');
+  var wallpaper = document.querySelector('#wallpaper');
+  var currentDate = new Date();
+  var hours = currentDate.getHours();
+  var minutes = currentDate.getMinutes();
+  var month = currentDate.getMonth();
+  var day = currentDate.getDay();
+  var dateOfMonth = currentDate.getDate();
+  var dayOfWeek = ['Sunday','Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+  var monthOfYear = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'Decemeber'];
+  if ((hours < 10)) {
+    time.innerHTML = '0' + hours + ':' + minutes;
+  } else {
+    time.innerHTML = hours + ':' + minutes;
+  }
+  if ((minutes < 10)) {
+    time.innerHTML = hours + ':' + '0' + minutes;
+  } else {
+    time.innerHTML = hours + ':' + minutes;
+  }
+  dateElem.innerHTML = dayOfWeek[day] + ", " + monthOfYear[month] + ' ' + dateOfMonth;
+  function myFunction() {
+    setTimeout(function() {
+      window.location.href = 'login.html';
+    }, 1000);
+  }
+  document.addEventListener('keypress', (e)=>{
+    console.log('key pressed', e.keyCode);
+    if(e.keyCode === 13) {
+      wallpaper.classList.remove('slideDown');
+      wallpaper.classList.add('slideUp');
+      myFunction();
+    }
+    else if (e.keyCode === 32) {
+      wallpaper.classList.remove('slideDown');
+      wallpaper.classList.add('slideUp');
+      myFunction();
+    }
+    else {
+      return null;
+    }
+  });
+ document.addEventListener('click', () => {
+    wallpaper.classList.remove('slideDown');
+  wallpaper.classList.add('slideUp');
+  myFunction();
+  });
+})();
+	</script>
+  </body>
+</html>
