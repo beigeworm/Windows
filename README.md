@@ -19,7 +19,9 @@ This uses cover.html to redirect to email.html and finally login.html.
 ![cover10](https://github.com/beigeworm/Windows-Locksreen-in-HTML/assets/93350544/bbbab2d1-c471-4267-8646-f9aeb8731178)
 ![10login](https://github.com/beigeworm/Windows-Locksreen-in-HTML/assets/93350544/bcbcc1b2-7e1c-4a94-894e-5bb98d6cb690)
 
+With Microsoft login..
 
+This uses cover.html to redirect to email.html and finally login.html.
 
 **Windows 11**
 ![11cover](https://github.com/beigeworm/Windows-Locksreen-in-HTML/assets/93350544/b5d3c537-a81f-4851-84eb-7e1019e54b9b)
