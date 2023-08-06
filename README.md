@@ -2,11 +2,24 @@
 
 **This is an emulation of the windows lockscreen cover with additional phishing page and webhook functionality.**
 
+THIS HMTL CODE IS DESIGNED TO WORK WITH POWERSHELL TO DISPLAY USERNAMES AND EMAIL ADDRESSES ETC.
+
 the PowerShell scripts skip the email page an instead finds the email from the logged in user info.
 
 **WINDOWS 10/11**
 
 This uses cover.html to redirect to email.html and finally login.html.
+
+**Windows 11 Standard**
+![11cover](https://github.com/beigeworm/Windows-Locksreen-in-HTML/assets/93350544/b5d3c537-a81f-4851-84eb-7e1019e54b9b)
+![11login](https://github.com/beigeworm/Windows-Locksreen-in-HTML/assets/93350544/993e060b-e04e-4762-820f-33bdee150750)
+
+
+**Windows 10 Standard**
+![cover10](https://github.com/beigeworm/Windows-Locksreen-in-HTML/assets/93350544/bbbab2d1-c471-4267-8646-f9aeb8731178)
+![10login](https://github.com/beigeworm/Windows-Locksreen-in-HTML/assets/93350544/bcbcc1b2-7e1c-4a94-894e-5bb98d6cb690)
+
+
 
 **Windows 11**
 ![11cover](https://github.com/beigeworm/Windows-Locksreen-in-HTML/assets/93350544/b5d3c537-a81f-4851-84eb-7e1019e54b9b)
