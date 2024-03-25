@@ -5,17 +5,17 @@
 - Windows 10 / 11 login pages
 - Discord login
 
-# DISCORD
+## DISCORD
 Discord login page.
 
-# GOOGLE 2024
+## GOOGLE 2024
 Updated for 2024 version of google login page.
 
-# GOOGLE (old style)
+## GOOGLE (old style)
 This uses 1 page with email and password together.
 
 
-# Windows Lockscreen in HTML
+## Windows Lockscreen in HTML
 
 **This is an emulation of the windows lockscreen cover with additional phishing page and webhook functionality.**
 
