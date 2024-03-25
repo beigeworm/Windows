@@ -8,11 +8,17 @@
 ## DISCORD
 Discord login page.
 
+![Screenshot_2](https://github.com/beigeworm/Login-Portals-HTML/assets/93350544/fdaf0d2b-a891-4d35-aa5a-8ff8dda14fe4)
+
 ## GOOGLE 2024
 Updated for 2024 version of google login page.
 
+![Screenshot_1](https://github.com/beigeworm/Login-Portals-HTML/assets/93350544/a3bfd126-eb75-47e1-b9f3-dc35fbb9d827)
+
 ## GOOGLE (old style)
 This uses 1 page with email and password together.
+
+![google](https://github.com/beigeworm/Windows-Locksreen-in-HTML/assets/93350544/d4457fd4-f907-4191-9e38-aaf158139943)
 
 
 ## Windows Lockscreen in HTML
