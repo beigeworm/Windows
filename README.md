@@ -5,6 +5,8 @@
 - Windows 10 / 11 login pages
 - Discord login
 
+## If you appreciate my work, please leave a star. ⭐
+
 ## DISCORD
 Discord login page.
 
