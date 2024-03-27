@@ -58,6 +58,3 @@ This uses cover.html to redirect to email.html and finally login.html.
 
 
 ![google](https://github.com/beigeworm/Windows-Locksreen-in-HTML/assets/93350544/d4457fd4-f907-4191-9e38-aaf158139943)
-
-
-# If you like my work please leave a star. ⭐
